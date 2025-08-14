@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on くらくらくらら</title>
-    <link>https://example.com/bloghugo/posts/</link>
+    <link>https://example.com/blog/posts/</link>
     <description>Recent content in Posts on くらくらくらら</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
@@ -10,19 +10,19 @@
     <webMaster>user@example.com (Hugo Author)</webMaster>
     <copyright>くら</copyright>
     <lastBuildDate>Thu, 14 Aug 2025 15:40:50 +0900</lastBuildDate>
-    <atom:link href="https://example.com/bloghugo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoの環境構築</title>
-      <link>https://example.com/bloghugo/posts/setuphugo/</link>
+      <link>https://example.com/blog/posts/setuphugo/</link>
       <pubDate>Thu, 14 Aug 2025 15:40:50 +0900</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://example.com/bloghugo/posts/setuphugo/</guid>
+      <guid>https://example.com/blog/posts/setuphugo/</guid>
       <description>環境構築の巻</description>
     </item>
     <item>
       <title>Test_post</title>
-      <link>https://example.com/bloghugo/posts/test_post/</link>
+      <link>https://example.com/blog/posts/test_post/</link>
       <pubDate>Thu, 14 Aug 2025 15:40:50 +0900</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>https://example.com/bloghugo/posts/test_post/</guid>
+      <guid>https://example.com/blog/posts/test_post/</guid>
       <description></description>
     </item>
   </channel>

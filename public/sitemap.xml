@@ -2,58 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/bloghugo/tags/hugo/</loc>
+    <loc>https://example.com/blog/tags/hugo/</loc>
     <lastmod>2025-08-14T15:40:50+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/bloghugo/posts/setuphugo/</loc>
+    <loc>https://example.com/blog/posts/setuphugo/</loc>
     <lastmod>2025-08-14T15:40:50+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/bloghugo/posts/</loc>
+    <loc>https://example.com/blog/posts/</loc>
     <lastmod>2025-08-14T15:40:50+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/bloghugo/tags/</loc>
+    <loc>https://example.com/blog/tags/</loc>
     <lastmod>2025-08-14T15:40:50+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/bloghugo/posts/test_post/</loc>
+    <loc>https://example.com/blog/posts/test_post/</loc>
     <lastmod>2025-08-14T15:40:50+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/bloghugo/</loc>
+    <loc>https://example.com/blog/</loc>
     <lastmod>2025-08-14T15:40:50+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/bloghugo/manifest.json</loc>
+    <loc>https://example.com/blog/manifest.json</loc>
   </url><url>
-    <loc>https://example.com/bloghugo/search/_index.de/</loc>
+    <loc>https://example.com/blog/search/_index.de/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.com/bloghugo/search/_index.en/</loc>
+    <loc>https://example.com/blog/search/_index.en/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.com/bloghugo/search/_index.es/</loc>
+    <loc>https://example.com/blog/search/_index.es/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.com/bloghugo/search/_index.fr/</loc>
+    <loc>https://example.com/blog/search/_index.fr/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.com/bloghugo/search/_index.hi/</loc>
+    <loc>https://example.com/blog/search/_index.hi/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.com/bloghugo/search/</loc>
+    <loc>https://example.com/blog/search/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.com/bloghugo/search/_index.nl/</loc>
+    <loc>https://example.com/blog/search/_index.nl/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.com/bloghugo/search/_index.pl/</loc>
+    <loc>https://example.com/blog/search/_index.pl/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.com/bloghugo/search/_index.ru/</loc>
+    <loc>https://example.com/blog/search/_index.ru/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.com/bloghugo/search/_index.zh-cn/</loc>
+    <loc>https://example.com/blog/search/_index.zh-cn/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://example.com/bloghugo/categories/</loc>
+    <loc>https://example.com/blog/categories/</loc>
   </url><url>
-    <loc>https://example.com/bloghugo/series/</loc>
+    <loc>https://example.com/blog/series/</loc>
   </url>
 </urlset>
