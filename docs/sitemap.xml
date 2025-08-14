@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/blog/posts/</loc>
+    <lastmod>2025-08-14T22:52:27+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/blog/tags/</loc>
+    <lastmod>2025-08-14T22:52:27+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/blog/</loc>
+    <lastmod>2025-08-14T22:52:27+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/blog/tags/%E3%83%90%E3%82%A4%E3%83%88/</loc>
+    <lastmod>2025-08-14T22:52:27+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/blog/posts/parttimejob_wearehouse/</loc>
+    <lastmod>2025-08-14T22:52:27+09:00</lastmod>
+  </url><url>
+    <loc>https://example.com/blog/about/</loc>
+    <lastmod>2025-08-14T22:41:05+09:00</lastmod>
+  </url><url>
     <loc>https://example.com/blog/tags/hugo/</loc>
     <lastmod>2025-08-14T15:40:50+09:00</lastmod>
   </url><url>
     <loc>https://example.com/blog/posts/setuphugo/</loc>
     <lastmod>2025-08-14T15:40:50+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/blog/posts/</loc>
-    <lastmod>2025-08-14T15:40:50+09:00</lastmod>
-  </url><url>
-    <loc>https://example.com/blog/tags/</loc>
-    <lastmod>2025-08-14T15:40:50+09:00</lastmod>
-  </url><url>
     <loc>https://example.com/blog/posts/test_post/</loc>
-    <lastmod>2025-08-14T15:40:50+09:00</lastmod>
-  </url><url>
-    <loc>https://example.com/blog/</loc>
     <lastmod>2025-08-14T15:40:50+09:00</lastmod>
   </url><url>
     <loc>https://example.com/blog/manifest.json</loc>
