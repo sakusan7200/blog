@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on くらくらくらら</title>
+    <link>https://example.com/bloghugo/categories/</link>
+    <description>Recent content in Categories on くらくらくらら</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <managingEditor>user@example.com (Hugo Author)</managingEditor>
+    <webMaster>user@example.com (Hugo Author)</webMaster>
+    <copyright>くら</copyright>
+    <atom:link href="https://example.com/bloghugo/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

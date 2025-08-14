@@ -116,9 +116,11 @@ $ hugo server -D & #下書きも含める。
 Windows上のPowerSHellで ```hugo server -D & ```bash とした場合、リアルタイムで保存した内容をビルドしてくれるが、WSLではなぜかできない？なんでだ？ちゃんと調べなくては。
 </details>
 
+## メモ
+画像、github pages、docsフォルダ問題
+
 ## 最後に
 markdown慣れたい。go言語も使ってみたい。
-次回は画像とかGitHub Pagesをちゃんと理解したい。
 
 ## 参考
 + https://gohugo.io/getting-started/quick-start/
