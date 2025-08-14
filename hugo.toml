@@ -11,8 +11,6 @@ theme = "tailwind"
   _merge = "deep"
 
 [params]
-  # dir name of your blog content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
   [params.header]
@@ -20,7 +18,6 @@ theme = "tailwind"
     title = "くらくらくらら"
 
   [params.footer]
-    since = 2023
     poweredby = true
 
 [menu]

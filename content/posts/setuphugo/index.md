@@ -116,6 +116,9 @@ $ hugo server -D & #下書きも含める。
 Windows上のPowerSHellで ```hugo server -D & ```bash とした場合、リアルタイムで保存した内容をビルドしてくれるが、WSLではなぜかできない？なんでだ？ちゃんと調べなくては。
 </details>
 
+## 書き方
+markdownに準ずる。画像をはりたい場合は[ここ](https://qiita.com/atuyosi/items/4100bd502e373c088c74)を参考にするとよさそう。
+
 ## メモ
 画像、github pages、docsフォルダ問題
 
