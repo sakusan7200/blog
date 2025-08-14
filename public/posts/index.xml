@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hugo Theme Tailwind Example Site</title>
+    <link>https://example.com/toppage/posts/</link>
+    <description>Recent content in Posts on Hugo Theme Tailwind Example Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>user@example.com (Hugo Author)</managingEditor>
+    <webMaster>user@example.com (Hugo Author)</webMaster>
+    <copyright>Your Name</copyright>
+    <lastBuildDate>Thu, 14 Aug 2025 15:40:50 +0900</lastBuildDate>
+    <atom:link href="https://example.com/toppage/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test_post</title>
+      <link>https://example.com/toppage/posts/test_post/</link>
+      <pubDate>Thu, 14 Aug 2025 15:40:50 +0900</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>https://example.com/toppage/posts/test_post/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
