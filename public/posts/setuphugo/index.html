@@ -1,49 +1,34 @@
 <!DOCTYPE html>
 <html lang="jp" dir="ltr">
-<head><script src="/bloghugo/livereload.js?mindelay=10&amp;v=2&amp;port=52581&amp;path=bloghugo/livereload" data-no-instant defer></script>
+<head>
   <title>Hugoの環境構築 :: くらくらくらら - Example site for hugo-theme-tailwind</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="HUGOとは GO言語で書かれた静的サイトジェネレーター 早い markdownで書ける GOの知識は要らん 私の環境 Windows 11 24H2(ちなみにInsider Priveewのベータチャンネルに入ってます) VSCode 1.103.0 WSL上でやってます $ hugo version hugo v0.123.7&#43;extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3 $ cat /etc/lsb-release DISTRIB_ID=Ubuntu DISTRIB_RELEASE=24.04 DISTRIB_CODENAME=noble DISTRIB_DESCRIPTION=&#34;Ubuntu 24.04.3 LTS&#34; Powershell(≠Windows PowerShell)からでもいけるらしい(.NET Frameworkと.NETの違いらしい)
-手順 HUGOのインストール $ sudo apt install hugo Ubuntuを再起動。
-サイトを作る $ hugo new site site_name 俺用 カレントディレクトリを親に移して ```bash $ hugo new site site_name --force ``` した場合、後々ファイルの位置で整合が取れなくなる。 tailwindテーマの導入 $ git submodule add https://github.com/tomowang/hugo-theme-tailwind.git themes/tailwind hugo.tomlをいかに書き換え
-baseURL = &#34;https://example.com/&#34; title = &#34;Hugo Theme Tailwind Example Site&#34; author = &#34;Your Name&#34; copyright = &#34;Your Name&#34; pagination.pagerSize = 10 languageCode = &#34;jp&#34; defaultContentLanguage = &#39;jp&#39; theme = &#34;tailwind&#34; [markup] _merge = &#34;deep&#34; [params] contentTypeName = &#34;posts&#34; [params.header] logo = &#34;logo.webp&#34; title = &#34;&#34; [params.footer] since = 2023 poweredby = true [menu] [[menu.main]] identifier = &#34;投稿&#34; name = &#34;Post&#34; pageRef = &#34;/posts&#34; weight = 10 [[menu.main]] identifier = &#34;about&#34; name = &#34;About&#34; pageRef = &#34;/about&#34; weight = 20 [taxonomies] category = &#34;categories&#34; tag = &#34;tags&#34; series = &#34;series&#34; ページを作る $ hugo new content posts/page_name/index.md かcontentディレクトリに直接mdファイルを作る。
-"
+  content="環境構築の巻"
 />
 <meta
   name="keywords"
   content="hugo, tailwind, tailwindcss, hugo theme, hugo theme tailwind"
 />
-<meta name="robots" content="noodp" /><link rel="manifest" href="/manifest.json" /><meta property="og:url" content="http://localhost:52581/bloghugo/posts/setuphugo/">
-  <meta property="og:site_name" content="くらくらくらら">
-  <meta property="og:title" content="Hugoの環境構築">
-  <meta property="og:description" content="HUGOとは GO言語で書かれた静的サイトジェネレーター 早い markdownで書ける GOの知識は要らん 私の環境 Windows 11 24H2(ちなみにInsider Priveewのベータチャンネルに入ってます) VSCode 1.103.0 WSL上でやってます $ hugo version hugo v0.123.7&#43;extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3 $ cat /etc/lsb-release DISTRIB_ID=Ubuntu DISTRIB_RELEASE=24.04 DISTRIB_CODENAME=noble DISTRIB_DESCRIPTION=&#34;Ubuntu 24.04.3 LTS&#34; Powershell(≠Windows PowerShell)からでもいけるらしい(.NET Frameworkと.NETの違いらしい)
-手順 HUGOのインストール $ sudo apt install hugo Ubuntuを再起動。
-サイトを作る $ hugo new site site_name 俺用 カレントディレクトリを親に移して ```bash $ hugo new site site_name --force ``` した場合、後々ファイルの位置で整合が取れなくなる。 tailwindテーマの導入 $ git submodule add https://github.com/tomowang/hugo-theme-tailwind.git themes/tailwind hugo.tomlをいかに書き換え
-baseURL = &#34;https://example.com/&#34; title = &#34;Hugo Theme Tailwind Example Site&#34; author = &#34;Your Name&#34; copyright = &#34;Your Name&#34; pagination.pagerSize = 10 languageCode = &#34;jp&#34; defaultContentLanguage = &#39;jp&#39; theme = &#34;tailwind&#34; [markup] _merge = &#34;deep&#34; [params] contentTypeName = &#34;posts&#34; [params.header] logo = &#34;logo.webp&#34; title = &#34;&#34; [params.footer] since = 2023 poweredby = true [menu] [[menu.main]] identifier = &#34;投稿&#34; name = &#34;Post&#34; pageRef = &#34;/posts&#34; weight = 10 [[menu.main]] identifier = &#34;about&#34; name = &#34;About&#34; pageRef = &#34;/about&#34; weight = 20 [taxonomies] category = &#34;categories&#34; tag = &#34;tags&#34; series = &#34;series&#34; ページを作る $ hugo new content posts/page_name/index.md かcontentディレクトリに直接mdファイルを作る。">
-  <meta property="og:locale" content="jp">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-08-14T15:40:50+09:00">
-    <meta property="article:modified_time" content="2025-08-14T15:40:50+09:00">
-    <meta property="article:tag" content="Hugo">
+<meta name="robots" content="noodp" /><link rel="manifest" href="/manifest.json" /><meta property="og:title" content="Hugoの環境構築" />
+<meta property="og:description" content="環境構築の巻" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/bloghugo/posts/setuphugo/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-08-14T15:40:50+09:00" />
+<meta property="article:modified_time" content="2025-08-14T15:40:50+09:00" />
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Hugoの環境構築">
-  <meta name="twitter:description" content="HUGOとは GO言語で書かれた静的サイトジェネレーター 早い markdownで書ける GOの知識は要らん 私の環境 Windows 11 24H2(ちなみにInsider Priveewのベータチャンネルに入ってます) VSCode 1.103.0 WSL上でやってます $ hugo version hugo v0.123.7&#43;extended linux/amd64 BuildDate=2025-07-18T03:41:49Z VendorInfo=ubuntu:0.123.7-1ubuntu0.3 $ cat /etc/lsb-release DISTRIB_ID=Ubuntu DISTRIB_RELEASE=24.04 DISTRIB_CODENAME=noble DISTRIB_DESCRIPTION=&#34;Ubuntu 24.04.3 LTS&#34; Powershell(≠Windows PowerShell)からでもいけるらしい(.NET Frameworkと.NETの違いらしい)
-手順 HUGOのインストール $ sudo apt install hugo Ubuntuを再起動。
-サイトを作る $ hugo new site site_name 俺用 カレントディレクトリを親に移して ```bash $ hugo new site site_name --force ``` した場合、後々ファイルの位置で整合が取れなくなる。 tailwindテーマの導入 $ git submodule add https://github.com/tomowang/hugo-theme-tailwind.git themes/tailwind hugo.tomlをいかに書き換え
-baseURL = &#34;https://example.com/&#34; title = &#34;Hugo Theme Tailwind Example Site&#34; author = &#34;Your Name&#34; copyright = &#34;Your Name&#34; pagination.pagerSize = 10 languageCode = &#34;jp&#34; defaultContentLanguage = &#39;jp&#39; theme = &#34;tailwind&#34; [markup] _merge = &#34;deep&#34; [params] contentTypeName = &#34;posts&#34; [params.header] logo = &#34;logo.webp&#34; title = &#34;&#34; [params.footer] since = 2023 poweredby = true [menu] [[menu.main]] identifier = &#34;投稿&#34; name = &#34;Post&#34; pageRef = &#34;/posts&#34; weight = 10 [[menu.main]] identifier = &#34;about&#34; name = &#34;About&#34; pageRef = &#34;/about&#34; weight = 20 [taxonomies] category = &#34;categories&#34; tag = &#34;tags&#34; series = &#34;series&#34; ページを作る $ hugo new content posts/page_name/index.md かcontentディレクトリに直接mdファイルを作る。">
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Hugoの環境構築"/>
+<meta name="twitter:description" content="環境構築の巻"/>
 
 
-<link rel="canonical" href="http://localhost:52581/bloghugo/posts/setuphugo/" />
+<link rel="canonical" href="https://example.com/bloghugo/posts/setuphugo/" />
 
 <link rel="shortcut icon" href="/bloghugo/favicon.ico" />
-<link rel="stylesheet" href="/bloghugo/css/index.c3a5d1586276a68cf55558ab67f2c726fee27f4aea3add1802872f471c5f233d.css">
+<link rel="stylesheet" href="/bloghugo/css/index.min.8f52268ce38691bd84eeee05121a11e2bc53c0e9f7fa97e2b147af29c8a627e1.css">
 
 
 
@@ -57,18 +42,7 @@ baseURL = &#34;https://example.com/&#34; title = &#34;Hugo Theme Tailwind Exampl
   
 
 </head>
-<body class="flex flex-col min-h-screen w-full bg-slate-50 dark:bg-gray-800">
-    
-<div class="fixed right-0 top-0 z-50 flex items-center justify-center bg-gray-200 p-2 text-sm uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
-  <span class="block sm:hidden">all</span>
-  <span class="hidden sm:block md:hidden">sm</span>
-  <span class="hidden md:block lg:hidden">md</span>
-  <span class="hidden lg:block xl:hidden">lg</span>
-  <span class="hidden xl:block 2xl:hidden">xl</span>
-  <span class="hidden 2xl:block">2xl</span>
-</div>
-
-  <header class="flex flex-none justify-center z-10">
+<body class="flex flex-col min-h-screen w-full bg-slate-50 dark:bg-gray-800"><header class="flex flex-none justify-center z-10">
     <div class="flex flex-row gap justify-between w-full max-w-4xl lg:max-w-5xl h-12 mt-3">
   <div class="flex-none ml-2 md:ml-0">
     <a href="/bloghugo/" class="">
@@ -246,7 +220,7 @@ baseURL = &#34;https://example.com/&#34; title = &#34;Hugo Theme Tailwind Exampl
 
     </i>
     <span>
-      1分で読了
+      1分読む
     </span>
   </div>
 </div>
@@ -428,7 +402,7 @@ Windows上のPowerSHellで ```hugo server -D & ```bash とした場合、リア�
 </section>
 
   </footer>
-  <script src="/bloghugo/main.js"></script>
+  <script src="/bloghugo/main.min.65ca5b0808abf278fcec5d424701ebf0b4bc46a737129cd5e57fdb739f463e79.js"></script>
 
 <div class="hidden top-1 right-1" id="code-copy">
   <i class="h-6 w-6 block">
@@ -448,7 +422,7 @@ Windows上のPowerSHellで ```hugo server -D & ```bash とした場合、リア�
 </svg>
 
   </i>
-</div><script src="/bloghugo/code-copy.js"></script>
+</div><script src="/bloghugo/code-copy.min.e7b2a74adef1ed474c335c8bd5e7832b2316b8842b0f9184d65286c5bd64f51a.js"></script>
 
 
 

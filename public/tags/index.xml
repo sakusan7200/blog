@@ -2,13 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on くらくらくらら</title>
-    <link>http://localhost:52581/bloghugo/tags/</link>
+    <link>https://example.com/bloghugo/tags/</link>
     <description>Recent content in Tags on くらくらくらら</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
     <managingEditor>user@example.com (Hugo Author)</managingEditor>
     <webMaster>user@example.com (Hugo Author)</webMaster>
     <copyright>くら</copyright>
-    <atom:link href="http://localhost:52581/bloghugo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Aug 2025 15:40:50 +0900</lastBuildDate>
+    <atom:link href="https://example.com/bloghugo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://example.com/bloghugo/tags/hugo/</link>
+      <pubDate>Thu, 14 Aug 2025 15:40:50 +0900</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>https://example.com/bloghugo/tags/hugo/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
