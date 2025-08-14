@@ -1,9 +1,10 @@
 baseURL = "https://example.com/bloghugo"
 title = "くらくらくらら"
-author = "Your Name"
-copyright = "Your Name"
+author = "くら"
+copyright = "くら"
 pagination.pagerSize = 10
-languageCode = "en"
+languageCode = "jp"
+defaultContentLanguage = 'jp'
 theme = "tailwind"
 
 [markup]
@@ -15,8 +16,8 @@ theme = "tailwind"
   contentTypeName = "posts"
 
   [params.header]
-    logo = "logo.webp"
-    title = ""
+    logo = "logo.jpeg"
+    title = "くらくらくらら"
 
   [params.footer]
     since = 2023
@@ -26,7 +27,7 @@ theme = "tailwind"
 
   [[menu.main]]
     identifier = "post"
-    name = "Post"
+    name = "投稿"
     pageRef = "/posts"
     weight = 10
 
