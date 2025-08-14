@@ -1,7 +1,7 @@
 +++
 title = 'Hugoの環境構築'
 date = 2025-08-14T15:40:50+09:00
-draft = true
+draft = false
 tags=["hugo"]
 summary= "環境構築の巻"
 +++
