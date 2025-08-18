@@ -9,8 +9,15 @@
     <managingEditor>user@example.com (Hugo Author)</managingEditor>
     <webMaster>user@example.com (Hugo Author)</webMaster>
     <copyright>くら</copyright>
-    <lastBuildDate>Thu, 14 Aug 2025 22:52:27 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 Aug 2025 23:47:47 +0900</lastBuildDate>
     <atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>マインクラフト1.13の新機能のお勉強</title>
+      <link>https://example.com/blog/posts/mc_study_1_13/</link>
+      <pubDate>Mon, 18 Aug 2025 23:47:47 +0900</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>https://example.com/blog/posts/mc_study_1_13/</guid>
+      <description></description>
+    </item>
     <item>
       <title>物流センターでピッキングバイトした感想</title>
       <link>https://example.com/blog/posts/parttimejob_wearehouse/</link>
@@ -23,7 +30,7 @@
       <link>https://example.com/blog/about/</link>
       <pubDate>Thu, 14 Aug 2025 22:41:05 +0900</pubDate><author>user@example.com (Hugo Author)</author>
       <guid>https://example.com/blog/about/</guid>
-      <description>このブログについて HUGOとGitHub Pagesで構築しています。いつかはVSPとかに上げてみたい&amp;hellip;&#xA;私について </description>
+      <description>私について ㊙㊙㊙㊙大学所属技術系サークル所属香川県出身&#xA;このブログについて HUGOとGitHub Pagesで構築しています。所属団体の意見を代表するものではありません。&#xA;沿革 Left align Left align 2025年8月14日 スタート </description>
     </item>
     <item>
       <title>Hugoの環境構築</title>
