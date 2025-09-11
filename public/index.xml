@@ -9,8 +9,22 @@
     <managingEditor>user@example.com (Hugo Author)</managingEditor>
     <webMaster>user@example.com (Hugo Author)</webMaster>
     <copyright>くら</copyright>
-    <lastBuildDate>Thu, 14 Aug 2025 22:52:27 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 15 Aug 2025 00:12:21 +0900</lastBuildDate>
     <atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ほしいもの2025年8月編</title>
+      <link>https://example.com/blog/posts/hosiimono_2025_aug/</link>
+      <pubDate>Fri, 15 Aug 2025 00:12:21 +0900</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>https://example.com/blog/posts/hosiimono_2025_aug/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ぼっち・ざ・ろっく展に行ってきました</title>
+      <link>https://example.com/blog/posts/btr_exhibition/</link>
+      <pubDate>Fri, 15 Aug 2025 00:12:08 +0900</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>https://example.com/blog/posts/btr_exhibition/</guid>
+      <description></description>
+    </item>
     <item>
       <title>物流センターでピッキングバイトした感想</title>
       <link>https://example.com/blog/posts/parttimejob_wearehouse/</link>
