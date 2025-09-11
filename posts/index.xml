@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on くらくらくらら</title><link>https://example.com/blog/posts/</link><description>Recent content in Posts on くらくらくらら</description><generator>Hugo</generator><language>jp</language><managingEditor>user@example.com (Hugo Author)</managingEditor><webMaster>user@example.com (Hugo Author)</webMaster><copyright>くら</copyright><lastBuildDate>Mon, 18 Aug 2025 23:47:47 +0900</lastBuildDate><atom:link href="https://example.com/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>マインクラフト1.13の新機能のお勉強</title><link>https://example.com/blog/posts/mc_study_1_13/</link><pubDate>Mon, 18 Aug 2025 23:47:47 +0900</pubDate><author>user@example.com (Hugo Author)</author><guid>https://example.com/blog/posts/mc_study_1_13/</guid><description/></item><item><title>物流センターでピッキングバイトした感想</title><link>https://example.com/blog/posts/parttimejob_wearehouse/</link><pubDate>Thu, 14 Aug 2025 22:52:27 +0900</pubDate><author>user@example.com (Hugo Author)</author><guid>https://example.com/blog/posts/parttimejob_wearehouse/</guid><description>&lt;h2 id="tldr"&gt;TL;DR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;倉庫でピッキングのバイトをしたよ&lt;/li&gt;
+&lt;li&gt;自分には向いてると思ったよ&lt;/li&gt;
+&lt;li&gt;ただし足が疲れるよ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="仕事内容"&gt;仕事内容&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;単発バイト&lt;/li&gt;
+&lt;li&gt;商品のところまで行ってバーコードを読み取って箱に入れる&lt;/li&gt;
+&lt;li&gt;1注文が終わるたびに梱包(「ほんぽう」ではなく「こんぽう」って読みます初めて知りましたね)する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="事の経緯"&gt;事の経緯&lt;/h2&gt;
+&lt;p&gt;夏休みだからなんかバイトしたいなーーー、でもコミュ障だから塾とかは嫌だし、長期で入るのは嫌だなってなって、このバイト先にたどり着きました。&lt;/p&gt;
+&lt;h2 id="良かったこと"&gt;良かったこと&lt;/h2&gt;
+&lt;p&gt;人とほとんど話さないので私にとってはすごく楽でした。説明も丁寧だし、正社員さんに聞いたら優しく教えてくれたので迷うことはありませんでした。&lt;/p&gt;
+&lt;p&gt;腰の高さに乗せ場がある台車(語彙力)があったので、荷物が重くても楽に運べました。&lt;/p&gt;
+&lt;h2 id="悪かったこと"&gt;悪かったこと&lt;/h2&gt;
+&lt;p&gt;家から遠い。ずっと歩くから足がえらかったです(8時間で12km程度歩きました)。&lt;/p&gt;</description></item><item><title>Hugoの環境構築</title><link>https://example.com/blog/posts/setuphugo/</link><pubDate>Thu, 14 Aug 2025 15:40:50 +0900</pubDate><author>user@example.com (Hugo Author)</author><guid>https://example.com/blog/posts/setuphugo/</guid><description>環境構築の巻</description></item><item><title>Test_post</title><link>https://example.com/blog/posts/test_post/</link><pubDate>Thu, 14 Aug 2025 15:40:50 +0900</pubDate><author>user@example.com (Hugo Author)</author><guid>https://example.com/blog/posts/test_post/</guid><description>&lt;p&gt;テスト投稿&lt;/p&gt;</description></item></channel></rss>
