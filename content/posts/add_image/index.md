@@ -2,6 +2,8 @@
 title = 'HUGOで画像を張る'
 date = 2025-09-12T11:05:40+09:00
 draft = false
+summary = "HUGOで画像を張る方法についてまとめた"
+tags = ["hugo"]
 +++
 
 # HUGOで画像をはろうの巻
@@ -30,7 +32,7 @@ HUGOで画像をはる方法について調べました。
 ## 方法③ shortcode
 ### 書き方
 
-```html
+```html:layouts/shortcodes/image.html
 <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" style="width: 20em;">
 ```
 
