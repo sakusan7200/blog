@@ -1,7 +1,7 @@
 baseURL = "https://example.com/blog"
-title = "くらくらくらら"
-author = "くら"
-copyright = "くら"
+title = "ゆのゆのルーム"
+author = "ゆのゆの"
+copyright = "ゆのゆの"
 pagination.pagerSize = 10
 languageCode = "jp"
 defaultContentLanguage = 'jp'
@@ -15,7 +15,7 @@ theme = "tailwind"
 
   [params.header]
     logo = "logo.jpeg"
-    title = "くらくらくらら"
+    title = "ゆのゆのルーム"
 
   [params.footer]
     poweredby = true
