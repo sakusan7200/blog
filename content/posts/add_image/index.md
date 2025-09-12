@@ -35,8 +35,8 @@ HUGOで画像をはる方法について調べました。
 ```
 
 ```
-{{＜ image src="Image.jpeg" alt="サンプル画像" >}}
-{{＜ image src="Image.jpeg" alt="サンプル画像" >}}
+{{＜ iｍage src="Image.jpeg" alt="サンプル画像" >}}
+{{＜ iｍage src="Image.jpeg" alt="サンプル画像" >}}
 ```
 ※表現の都合で全角の「＜」を使用しています。
 
