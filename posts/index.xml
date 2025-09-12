@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ゆのゆのルーム</title><link>https://example.com/blog/posts/</link><description>Recent content in Posts on ゆのゆのルーム</description><generator>Hugo</generator><language>jp</language><managingEditor>user@example.com (Hugo Author)</managingEditor><webMaster>user@example.com (Hugo Author)</webMaster><copyright>ゆのゆの</copyright><lastBuildDate>Fri, 12 Sep 2025 08:56:23 +0900</lastBuildDate><atom:link href="https://example.com/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Github_test</title><link>https://example.com/blog/posts/github_test/</link><pubDate>Fri, 12 Sep 2025 08:56:23 +0900</pubDate><author>user@example.com (Hugo Author)</author><guid>https://example.com/blog/posts/github_test/</guid><description>&lt;h1 id="github-pagesのテスト"&gt;GitHub Pagesのテスト&lt;/h1&gt;</description></item><item><title>マインクラフト1.13の新機能のお勉強</title><link>https://example.com/blog/posts/mc_study_1_13/</link><pubDate>Mon, 18 Aug 2025 23:47:47 +0900</pubDate><author>user@example.com (Hugo Author)</author><guid>https://example.com/blog/posts/mc_study_1_13/</guid><description/></item><item><title>物流センターでピッキングバイトした感想</title><link>https://example.com/blog/posts/parttimejob_wearehouse/</link><pubDate>Thu, 14 Aug 2025 22:52:27 +0900</pubDate><author>user@example.com (Hugo Author)</author><guid>https://example.com/blog/posts/parttimejob_wearehouse/</guid><description>&lt;h2 id="tldr"&gt;TL;DR&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ゆのゆのルーム</title><link>https://example.com/blog/posts/</link><description>Recent content in Posts on ゆのゆのルーム</description><generator>Hugo</generator><language>jp</language><managingEditor>user@example.com (Hugo Author)</managingEditor><webMaster>user@example.com (Hugo Author)</webMaster><copyright>ゆのゆの</copyright><lastBuildDate>Fri, 12 Sep 2025 11:05:40 +0900</lastBuildDate><atom:link href="https://example.com/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>HUGOで画像を張る</title><link>https://example.com/blog/posts/add_image/</link><pubDate>Fri, 12 Sep 2025 11:05:40 +0900</pubDate><author>user@example.com (Hugo Author)</author><guid>https://example.com/blog/posts/add_image/</guid><description>&lt;h1 id="hugoで画像をはろうの巻"&gt;HUGOで画像をはろうの巻&lt;/h1&gt;
+&lt;p&gt;HUGOで画像をはる方法について調べました。&lt;/p&gt;
+&lt;h2 id="方法-markdownでよくある書き方"&gt;方法① Markdownでよくある(?)書き方&lt;/h2&gt;
+&lt;h3 id="書き方"&gt;書き方&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;![人形の写真](Image.jpeg)
+![代替テキスト](画像のURL)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="結果"&gt;結果&lt;/h3&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="%22Image.jpeg%22"
+ alt="a" 
+ loading="lazy"
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+
+でかい。&lt;/p&gt;
+&lt;h2 id="方法-imgタグ"&gt;方法② imgタグ&lt;/h2&gt;
+&lt;h3 id="書き方-1"&gt;書き方&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="na"&gt;alt&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;代替テキスト&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;画像のパス&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="na"&gt;alt&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;人形の写真&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;Image.jpeg&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img alt="人形の写真" style="width:20em" src="Image.jpeg"/&gt;
+&lt;h2 id="方法-shortcode"&gt;方法③ shortcode&lt;/h2&gt;
+&lt;h3 id="書き方-2"&gt;書き方&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-html" data-lang="html"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;{{ .Get &amp;#34;&lt;/span&gt;&lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="err"&gt;&amp;#34;&lt;/span&gt; &lt;span class="err"&gt;}}&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;alt&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;{{ .Get &amp;#34;&lt;/span&gt;&lt;span class="na"&gt;alt&lt;/span&gt;&lt;span class="err"&gt;&amp;#34;&lt;/span&gt; &lt;span class="err"&gt;}}&amp;#34;&lt;/span&gt; &lt;span class="na"&gt;style&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;width: 20em;&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;{{＜ iｍage src=&amp;#34;Image.jpeg&amp;#34; alt=&amp;#34;サンプル画像&amp;#34; &amp;gt;}}
+{{＜ iｍage src=&amp;#34;Image.jpeg&amp;#34; alt=&amp;#34;サンプル画像&amp;#34; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;※表現の都合で全角の「＜」を使用しています。&lt;/p&gt;
+&lt;h3 id="結果-1"&gt;結果&lt;/h3&gt;
+&lt;p&gt;&lt;img src="Image.jpeg" alt="サンプル画像" style="width: 20em;"&gt;
+これが一番よさそう&lt;/p&gt;
+&lt;h2 id="参考"&gt;参考&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/Qiita/items/c686397e4a0f4f11683d" target="_blank" rel="noopener"&gt;https://qiita.com/Qiita/items/c686397e4a0f4f11683d&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://gohugo.io/content-management/shortcodes/" target="_blank" rel="noopener"&gt;https://gohugo.io/content-management/shortcodes/&lt;/a&gt;
+&lt;/p&gt;</description></item><item><title>Github_test</title><link>https://example.com/blog/posts/github_test/</link><pubDate>Fri, 12 Sep 2025 08:56:23 +0900</pubDate><author>user@example.com (Hugo Author)</author><guid>https://example.com/blog/posts/github_test/</guid><description>&lt;h1 id="github-pagesのテスト"&gt;GitHub Pagesのテスト&lt;/h1&gt;</description></item><item><title>マインクラフト1.13の新機能のお勉強</title><link>https://example.com/blog/posts/mc_study_1_13/</link><pubDate>Mon, 18 Aug 2025 23:47:47 +0900</pubDate><author>user@example.com (Hugo Author)</author><guid>https://example.com/blog/posts/mc_study_1_13/</guid><description/></item><item><title>物流センターでピッキングバイトした感想</title><link>https://example.com/blog/posts/parttimejob_wearehouse/</link><pubDate>Thu, 14 Aug 2025 22:52:27 +0900</pubDate><author>user@example.com (Hugo Author)</author><guid>https://example.com/blog/posts/parttimejob_wearehouse/</guid><description>&lt;h2 id="tldr"&gt;TL;DR&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;倉庫でピッキングのバイトをしたよ&lt;/li&gt;
 &lt;li&gt;自分には向いてると思ったよ&lt;/li&gt;
