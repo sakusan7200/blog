@@ -12,6 +12,7 @@ theme = "tailwind"
 
 [params]
   contentTypeName = "posts"
+  
 
   [params.header]
     logo = "logo.jpeg"
