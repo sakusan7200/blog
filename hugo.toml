@@ -12,7 +12,8 @@ theme = "tailwind"
 
 [params]
   contentTypeName = "posts"
-  
+  subtitle = "ゆのゆのルーム"
+
 
   [params.header]
     logo = "logo.jpeg"
